@@ -1,0 +1,179 @@
+/* Change Grabbing Cursor */
+a:active,
+audio:active,
+audio::-webkit-media-controls-panel:active,
+audio::-webkit-media-controls-play-button:active,
+area:active {
+    cursor: url('../images/knife-cursor-bloody.png') 4 33, auto;
+}
+a:hover,
+audio:hover,
+audio::-webkit-media-controls-panel:hover,
+audio::-webkit-media-controls-play-button:hover,
+area:hover {
+    cursor: url('../images/knife-cursor-bloody.png') 4 33, auto;
+}
+
+/* Links */
+a:link {
+  color: red;
+}
+a:visited {
+  color: rgb(62, 0, 0);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: "Special Elite", system-ui;
+    font-size: 20px;
+}
+
+/* Body Stuff - All Pages */
+body {
+    background-image: url('../images/Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    cursor: url('../images/knife-cursor.png'), auto;
+}
+.fog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url('../images/fog.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.35;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    pointer-events:none;
+}
+.logo {
+    height: 125px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+audio {
+    width: 280px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    animation: fadeIn;
+    animation-duration: 5s;
+}
+audio::-webkit-media-controls-panel {
+    background: rgb(20,20,20);
+}
+audio::-webkit-media-controls-play-button {
+    filter: drop-shadow(0 0 4px red);
+}
+.audtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: "Special Elite", system-ui;
+    font-size: 20px;
+    animation: fadeIn;
+    animation-duration: 5s;
+}
+
+/* Body Stuff - Home Page */
+.hometable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 5px;
+    transform: translateX(-45px);
+    animation: fadeIn;
+    animation-duration: 5s;
+}
+.blurb {
+    background-color: rgba(62, 0, 0, 0.21);
+    padding: 5px;
+    border: 5px double black;
+    text-align: center;
+    width: 600px;
+    font-family: "Special Elite", system-ui;
+    font-size:20px;
+}
+.ph {
+    height: 525px;
+    width: 500px;
+}
+.bhn {
+    height: 500px;
+    width: 400px;
+    transform: translateY(45px);
+}
+.map {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    animation: fadeIn;
+    animation-duration: 5s;
+    transform: translateX(-7px);
+}
+.maptext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Special Elite", system-ui;
+    font-size: 20px;
+    animation: fadeIn;
+    animation-duration: 5s;
+}
+
+/* Body Stuff - Info Page */
+.links {
+    text-align: center;
+    font-family: "Special Elite", system-ui;
+    font-size: 25px;  
+    animation: fadeIn;
+    animation-duration: 5s;  
+}
+.links td {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 20px;
+}
+.linkicon {
+    height: 75px;
+    width: 75px;
+    border: solid rgb(62, 0, 0);
+    animation: fadeIn;
+    animation-duration: 5s;
+}
+
+/* Body Stuff - Letter Page */
+.lettertable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 5px;
+    transform: translateX(30px);
+    animation: fadeIn;
+    animation-duration: 5s;
+}
